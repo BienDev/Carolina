@@ -1,0 +1,446 @@
+/* RESPONSIVE CSS HERE */
+@media (min-width: 1534px) {
+  .container {
+    max-width: 1534px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  .logo_image {
+    max-width: 268px;
+  }
+  
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h4, h5, p, .navbar-nav li a {
+    font-size: 22px;
+  }
+  button {
+    font-size: 25px;
+  }
+  .card p, .card_contact p, .contact_details ul li a, .form-group label, .form-check-label, .message-box-container label, .form-group label, .form-check-label, .message-box-container label {
+    font-size: 17px;
+  }
+  .vertical_line {
+    height: 44px;
+    width: 2px;
+    margin: 10px auto;
+  }
+  .pad-l {
+    padding-left: 60px;
+  }
+  
+  .pad-r {
+    padding-right: 60px;
+  }
+  .banner_s {
+    height: 60vh !important;
+  }
+  .banner_s:before {
+    height: 60vh !important;
+  }
+  .hero-image-s {
+    height: 60vh;
+  }
+  .container-form {
+    padding: 2% 5% 5% 5%;
+  }
+  .form-group input {
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  [type="checkbox"]:not(:checked)+label:before,
+  [type="checkbox"]:checked+label:before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #d4d4d4;
+  background-color: #fff;
+  outline: none;
+  }
+
+  [type="checkbox"]:not(:checked)+label:after,
+  [type="checkbox"]:checked+label:after {
+  content: '✔';
+  position: absolute;
+  top: -5px;
+  left: -18px;
+  font-size: 40px;
+  line-height: 0.8;
+  color: #71a61e;
+  transition: all .2s;
+  }
+  .modal-dialog {
+    max-width: 620px;
+  }
+  .container-form-overlay input {
+    all: unset;
+    width: 100%;
+    font-size:22px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #c2c2c2;
+    padding-top: 1.5em;
+  }
+  .container-form-overlay textarea {
+    font-size: 22px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #c2c2c2;
+    padding-top: 1.5em;
+    resize: vertical;
+    font-family: 'Montserrat-Light';
+  }
+  .car-img {
+    max-width: 513px;
+    max-height: 390px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1199px) {
+  .logo_image {
+    max-width: 222px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h4, h5, p, .navbar-nav li a {
+    font-size: 18px;
+  }
+  button {
+    font-size: 20px;
+  }
+  .card p, .card_contact p, .contact_details ul li a, .form-group label, .form-check-label, .message-box-container label, .form-group label, .form-check-label, .message-box-container label {
+    font-size: 14px;
+  }
+  .vertical_line {
+    height: 44px;
+    width: 2px;
+    margin: 10px auto;
+  }
+  .pad-l {
+    padding-left: 53px;
+  }
+  
+  .pad-r {
+    padding-right: 53px;
+  }
+  .hello_img_holder img {
+    width: 100%;
+    padding-top: 0;
+    object-fit: cover;
+  }
+  .car-img {
+    max-width: 427px;
+    max-height: 324px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 991px ) {
+  header .container {
+    max-width: 100%;
+    padding: 0 25px;
+  }
+
+  .img_index_w {
+    max-height: 500px;
+  }
+
+  .reverse_col {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .nav_style {
+    position: relative;
+    top: -10px;
+    background: #fff;
+    z-index: 5 !important;
+  }
+
+  .top5 {
+    z-index: 5;
+  }
+
+  .navbar-toggler-icon, .navbar-toggler {
+    color: #000 !important;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  }
+
+  .nav-link {
+    font-size: 30px !important;
+    color: #000 !important;
+  }
+
+  .logo_image {
+    margin: 5px 0;
+  }
+
+  .list_separator {
+    font-size: 1em;
+  }
+
+  .top_menu {
+    padding: 0;
+    padding-top: 5px;
+  }
+
+  .contact_details {
+    position: static;
+    z-index: 5;
+  }
+
+  .top_contact li a {
+    color: #fff;
+    z-index: 5;
+  }
+
+  .contact_details::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 100vw;
+    background: #000;
+    top: -5px;
+    left: 0;
+    z-index: -1;
+    
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    z-index: 5;
+    right: 15px;
+    top: -40px;
+  }
+
+  .navbar-toggler-icon {
+    position: relative;
+    z-index: 5;
+  }
+
+  .pad-l {
+    padding: 2%;
+  }
+
+  .pad-r {
+    padding: 2%;
+  }
+
+  .navbar-nav li {
+    margin-left: 0;
+  }
+
+  .what_we_do li {
+    padding-left: 0;
+  }
+
+  .btn-scn {
+    margin-bottom: 2em;
+  }
+
+  .light-img-bg-wwa::before, .light-img-bg-wwa::after, .light-img-bg-wwd::before, .light-img-bg-wwd::after, .light-img-bg-ceo::before, .light-img-bg-ceo::after {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px ) {
+  p {
+    font-size: 26px;
+  }
+
+  .hello_img_holder img {
+    margin-top: 1em;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
+
+  .c-icon::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/checked-box.png);
+    background-size: 25px 20px;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    left: -30px;
+    top: 5px;
+  }
+}
+
+@media (max-width: 600px ) {
+  p {
+    font-size: 22px;
+  }
+  
+  .card_contact p {
+    font-size: 16px;
+  }
+
+  .max-po {
+    width: 100%;
+  }
+
+  .hello {
+    padding: 0;
+  }
+
+  .hello_s h5 {
+    padding: .5em;
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 550px ) {
+  .row {
+    margin: 0;
+  }
+
+  .max-po {
+    width: 100%;
+  }
+
+  .hello {
+    padding: 0;
+  }
+
+  .train {
+    text-align: left;
+    padding: 1em 2% 0 7%;
+  }
+
+}
+
+@media (max-width: 500px ) {
+  .list_separator {
+    padding: 0 5px;
+    font-size: 10px;
+  }
+  header .container {
+    padding: 0;
+  }
+
+  .container-form-overlay {
+    width: 100%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  .c-icon::before {
+    background-size: 25px 20px;
+    width: 60px;
+    height: 60px;
+    left: -30px;
+    top: 10px;
+  }
+
+  .max-po {
+    padding: .1em;
+    width: 100%;
+  }
+  
+  .max-po h4 {
+    padding-right: .2em;
+    font-family: 'Montserrat-Bold';
+    font-size: 22px;
+  }
+
+  .container-form {
+    padding: 2em;
+  }
+
+  .form-group label, .form-check-label, .message-box-container label {
+    font-size: 18px;
+  }
+  
+  .form-group input {
+    font-size: 18px;
+    border-width: 2px;
+  }
+
+  .c-icon::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/checked-box.png);
+    background-size: 25px 20px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    left: -30px;
+    top: 5px;
+  }
+}
+
+@media (max-width: 420px ) {
+  .contact_details ul li a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px ) {
+  .train {
+    text-align: left;
+    padding: 1em 2% 0 10%;
+  }
+}
+
+@media (max-width: 375px ) {
+  .container-form-overlay {
+    padding: .5em 5%;
+  }
+  .container-form-overlay input {
+    width: 100%;
+    font-size:20px;
+    padding-top: .75em;
+  }
+}
+
+@media (max-width: 355px ) {
+  .contact_details ul li a {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 340px ) {
+  .logo_image {
+    width: 190px;
+  }
+}
+
+@media (max-width: 325px ) {
+  .contact_details ul li a {
+    font-size: 10.5px;
+  }
+}
